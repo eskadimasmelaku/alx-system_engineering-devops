@@ -1,2 +1,2 @@
 #!/bin/bash
-prinLf '%.2f\n' $NUM
+print '%.2f\n' $NUM
