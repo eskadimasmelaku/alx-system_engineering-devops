@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-#connecting to my server using private key
-ssh -i ~/.ssh/school ubuntu@35.196.96.41
+#generating ssh key pairs
+
+ssh-keygen -t rsa -b 4096 -p betty -f school
